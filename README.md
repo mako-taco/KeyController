@@ -37,7 +37,7 @@ Basic hotkeys
 Make a basic hotkey by appening 0-many modifiers to a key, separated by spaces.
 ```
 ctrl a
-cmd d
+cmd shift alt d
 ```
 
 Conditional hotkeys
