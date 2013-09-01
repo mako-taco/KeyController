@@ -84,3 +84,30 @@ mode1.activate();
 mode2.activate(true);
 ```
 This will result in all three key bindings being registered at once.
+
+Special Keys
+------------
+Special keys can be found on the KeyController object, and are as follows:
+```
+KeyController.special = {
+	BACKSPACE: 8,
+	TAB: 9,
+	ENTER: 13,
+	PAUSE: 19,
+	BREAK: 19,
+	CAPSLOCK: 20,
+	ESC: 27,
+	SPACE: 32,
+	PAGE_UP: 33,
+	PAGE_DOWN: 34,
+	END: 35,
+	HOME: 36,
+	LEFT: 37,
+	UP: 38,
+	RIGHT: 39,
+	DOWN: 40,
+	PRNTSCRN: 44,
+	INSERT: 45,
+	DELETE: 46
+};
+```
